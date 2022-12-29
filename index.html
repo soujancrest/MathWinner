@@ -1,0 +1,352 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MathWinner</title>
+    <link rel="icon" href="/assets/Images/MathWinner_Logo-12.png" />
+    <!-- Manual CSS -->
+    <link rel="stylesheet" href="/main.css" />
+    <!-- Manual CSS End -->
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap End -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <img
+              src="/assets/Images/MathWinner_Logo-12.png"
+              alt="MathWinner Logo"
+            />
+          </div>
+          <div class="nav-links d-none d-md-block">
+            <ul>
+              <li>
+                <a href="#"><span>HOME</span></a>
+              </li>
+              <li>
+                <a href="#"><span>ABOUT</span></a>
+              </li>
+              <li>
+                <a href="#"><span>PRODUCT</span></a>
+              </li>
+              <li>
+                <a href="#"><span>IMPLEMENTATION</span></a>
+              </li>
+              <li>
+                <a href="#"><span>MASTERING MATHS</span></a>
+              </li>
+              <li>
+                <a href="#"><span>PARTNER</span></a>
+              </li>
+              <li>
+                <a href="#"><span>CONTACT</span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="banner-imgs">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="/assets/Images/Banner-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-md-block">
+                <h1>Don’t be afraid of<br />Math formula !</h1>
+                <p>Master them easily with <span>MATHWINNER</span>!</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="/assets/Images/Banner-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-md-block">
+                <h1>No more worry<br />low scores in Maths</h1>
+                <p>Score the maximum with <span>MATHWINNER</span>!</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/assets/Images/Banner-3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-md-block">
+                <h1>Cut through the<br />maze of Maths !</h1>
+                <p>Come out triumphant as a <span>MATHWINNER</span>!</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="categories">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <div class="cate">
+              <div class="cate-icon">
+                <img src="/assets/Images/1IconsSchool.png" alt="" />
+              </div>
+              <div class="cate-title">
+                <p>SCHOOL<br />MATH LABS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="cate">
+              <div class="cate-icon">
+                <img src="/assets/Images/2Icons-Teachers.png" alt="" />
+              </div>
+              <div class="cate-title">
+                <p>TEACHERS<br />TRAINING</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="cate">
+              <div class="cate-icon">
+                <img src="/assets/Images/3Icons-Books.png" alt="" />
+              </div>
+              <div class="cate-title">
+                <p>STUDENT<br />ACTIVITY BOOK</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="cate">
+              <div class="cate-icon">
+                <img src="/assets/Images/4Icons-Tasks.png" alt="" />
+              </div>
+              <div class="cate-title">
+                <p>CONTENTS &<br />WEEKEND TASK</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="be-a-math">
+      <div class="container">
+        <div class="heading">
+          <h1>BE A MATHWINNER</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="be-a-math-box">
+              <div class="be-a-math-img">
+                <img src="/assets/Images/1Box-Kit.png" alt="" />
+              </div>
+              <div class="be-a-math-title">
+                <p>
+                  Each kit has specially<br />designed Manipulatives /<br />Objects
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="be-a-math-box">
+              <div class="be-a-math-img">
+                <img src="/assets/Images/2Box-Books.png" alt="" />
+              </div>
+              <div class="be-a-math-title">
+                <p>Activity Books<br />for Practice &<br />Assessment</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="be-a-math-box">
+              <div class="be-a-math-img">
+                <img src="/assets/Images/3Box-Online.png" alt="" />
+              </div>
+              <div class="be-a-math-title">
+                <p>Online video<br />support for easy self -<br />learning</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products">
+      <div class="container">
+        <div class="heading">
+          <h1>OUR PRODUCTS</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mathlab-img">
+              <img src="/assets/Images/MathLab.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="mathlab-img">
+              <img src="/assets/Images/MathKits.jpeg" alt="" />
+            </div>
+          </div>
+          <!-- <div class="col">
+            <div class="mathlab-img">
+            <img src="/assets/Images/MathKit.jpeg" alt="" />
+            <div/>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <section class="numbering">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" id="numbering-col-1">
+            <div class="numbering-col">
+              <div class="trained-teachers">
+                <h3>
+                  <span>5,000 +</span>
+                  <br />
+                  Teachers Trained
+                </h3>
+              </div>
+              <div class="happy-students">
+                <h3>
+                  <span>1,00,000 +</span>
+                  <br />
+                  Happy Students
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="numbering-img">
+              <img src="/assets/Images/Numbering-sec.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="logo">
+              <img src="/assets/Images/Footer-logo.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-4"></div>
+          <div class="col-lg-5">
+            <div class="contact">
+              <ul>
+                <li class="row address">
+                  <div class="col-lg-2 col-2 address-image">
+                    <img src="/assets/images/Address.png" alt="" />
+                  </div>
+                  <div class="col-lg-9 col-9 address-text">
+                    <a href="#" target="_blank"
+                      ><span
+                        >1st Floor, Plot 2, Sidhi Vinayaka Nagar, Gurukul Gokul,
+                        Khanamet, Near N Convention, Hitech City, Madhapur,
+                        Hyderabad, Telangana - 500081</span
+                      >
+                    </a>
+                  </div>
+                </li>
+                <li class="row email">
+                  <div class="col-lg-2 col-2 email-image">
+                    <img src="/assets/images/Mail.png" alt="" />
+                  </div>
+                  <div class="col-lg-9 col-9 email-address">
+                    <a href="mailto:info@mathwinner.in"
+                      ><span>info@mathwinner.in</span>
+                    </a>
+                  </div>
+                </li>
+                <li class="row phone">
+                  <div class="col-lg-2 col-2 phone-image">
+                    <img src="/assets/images/Phone.png" alt="" />
+                  </div>
+                  <div class="col-lg-9 col-9 phone-num">
+                    <a href="tel:+917794900000"
+                      ><span>+91 77949 00000 |</span></a
+                    >
+                    <a href="tel:+919542288988"><span>+91 95422 88988</span></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
