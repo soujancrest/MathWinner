@@ -31,8 +31,12 @@
       crossorigin="anonymous"
     ></script>
     <!-- Bootstrap End -->
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aos animation end -->
   </head>
-  <body>
+  <body data-aos-easing="ease" data-aos-duration="1000" data-aos-delay="0">
     <header>
       <div class="container">
         <div class="header">
@@ -44,14 +48,14 @@
           </div>
           <div class="nav-links d-none d-md-block">
             <ul>
-              <li>
-                <a href="#"><span>HOME</span></a>
+              <li class="active">
+                <span>HOME</span>
               </li>
               <li>
-                <a href="#"><span>ABOUT</span></a>
+                <a href="/about/"><span>ABOUT</span></a>
               </li>
               <li>
-                <a href="#"><span>PRODUCT</span></a>
+                <a href="/product/"><span>PRODUCT</span></a>
               </li>
               <li>
                 <a href="#"><span>IMPLEMENTATION</span></a>
@@ -106,7 +110,7 @@
                 class="d-block w-100"
                 alt="..."
               />
-              <div class="carousel-caption d-md-block">
+              <div class="carousel-caption d-md-block" data-aos="fade-up">
                 <h1>Don’t be afraid of<br />Math formula !</h1>
                 <p>Master them easily with <span>MATHWINNER</span>!</p>
               </div>
@@ -118,8 +122,12 @@
                 alt="..."
               />
               <div class="carousel-caption d-md-block">
-                <h1>No more worry<br />low scores in Maths</h1>
-                <p>Score the maximum with <span>MATHWINNER</span>!</p>
+                <h1 data-aos="fade-up">
+                  No more worry<br />low scores in Maths
+                </h1>
+                <p data-aos="fade-up">
+                  Score the maximum with <span>MATHWINNER</span>!
+                </p>
               </div>
             </div>
             <div class="carousel-item">
@@ -129,8 +137,10 @@
                 alt="..."
               />
               <div class="carousel-caption d-md-block">
-                <h1>Cut through the<br />maze of Maths !</h1>
-                <p>Come out triumphant as a <span>MATHWINNER</span>!</p>
+                <h1 data-aos="fade-up">Cut through the<br />maze of Maths !</h1>
+                <p data-aos="fade-up">
+                  Come out triumphant as a <span>MATHWINNER</span>!
+                </p>
               </div>
             </div>
           </div>
@@ -161,40 +171,56 @@
           <div class="col-lg-3 col-6">
             <div class="cate">
               <div class="cate-icon">
-                <img src="/assets/Images/1IconsSchool.png" alt="" />
+                <img
+                  src="/assets/Images/1IconsSchool.png"
+                  alt=""
+                  data-aos="zoom-in"
+                />
               </div>
               <div class="cate-title">
-                <p>SCHOOL<br />MATH LABS</p>
+                <p data-aos="fade-up">SCHOOL<br />MATH LABS</p>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-6">
             <div class="cate">
               <div class="cate-icon">
-                <img src="/assets/Images/2Icons-Teachers.png" alt="" />
+                <img
+                  src="/assets/Images/2Icons-Teachers.png"
+                  alt=""
+                  data-aos="zoom-in"
+                />
               </div>
               <div class="cate-title">
-                <p>TEACHERS<br />TRAINING</p>
+                <p data-aos="fade-up">TEACHERS<br />TRAINING</p>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-6">
             <div class="cate">
               <div class="cate-icon">
-                <img src="/assets/Images/3Icons-Books.png" alt="" />
+                <img
+                  src="/assets/Images/3Icons-Books.png"
+                  alt=""
+                  data-aos="zoom-in"
+                />
               </div>
               <div class="cate-title">
-                <p>STUDENT<br />ACTIVITY BOOK</p>
+                <p data-aos="fade-up">STUDENT<br />ACTIVITY BOOK</p>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-6">
             <div class="cate">
               <div class="cate-icon">
-                <img src="/assets/Images/4Icons-Tasks.png" alt="" />
+                <img
+                  src="/assets/Images/4Icons-Tasks.png"
+                  alt=""
+                  data-aos="zoom-in"
+                />
               </div>
               <div class="cate-title">
-                <p>CONTENTS &<br />WEEKEND TASK</p>
+                <p data-aos="fade-up">CONTENTS &<br />WEEKEND TASK</p>
               </div>
             </div>
           </div>
@@ -204,16 +230,20 @@
     <section class="be-a-math">
       <div class="container">
         <div class="heading">
-          <h1>BE A MATHWINNER</h1>
+          <h1 data-aos="fade-up">BE A MATHWINNER</h1>
         </div>
         <div class="row">
           <div class="col-lg-4">
             <div class="be-a-math-box">
               <div class="be-a-math-img">
-                <img src="/assets/Images/1Box-Kit.png" alt="" />
+                <img
+                  src="/assets/Images/1Box-Kit.png"
+                  alt=""
+                  data-aos="zoom-in"
+                />
               </div>
               <div class="be-a-math-title">
-                <p>
+                <p data-aos="fade-up">
                   Each kit has specially<br />designed Manipulatives /<br />Objects
                 </p>
               </div>
@@ -222,20 +252,32 @@
           <div class="col-lg-4">
             <div class="be-a-math-box">
               <div class="be-a-math-img">
-                <img src="/assets/Images/2Box-Books.png" alt="" />
+                <img
+                  src="/assets/Images/2Box-Books.png"
+                  alt=""
+                  data-aos="zoom-in"
+                />
               </div>
               <div class="be-a-math-title">
-                <p>Activity Books<br />for Practice &<br />Assessment</p>
+                <p data-aos="fade-up">
+                  Activity Books<br />for Practice &<br />Assessment
+                </p>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="be-a-math-box">
               <div class="be-a-math-img">
-                <img src="/assets/Images/3Box-Online.png" alt="" />
+                <img
+                  src="/assets/Images/3Box-Online.png"
+                  alt=""
+                  data-aos="zoom-in"
+                />
               </div>
               <div class="be-a-math-title">
-                <p>Online video<br />support for easy self -<br />learning</p>
+                <p data-aos="fade-up">
+                  Online video<br />support for easy self -<br />learning
+                </p>
               </div>
             </div>
           </div>
@@ -245,17 +287,25 @@
     <section class="products">
       <div class="container">
         <div class="heading">
-          <h1>OUR PRODUCTS</h1>
+          <h1 data-aos="fade-up">OUR PRODUCTS</h1>
         </div>
         <div class="row">
           <div class="col-lg-6">
             <div class="mathlab-img">
-              <img src="/assets/Images/MathLab.jpeg" alt="" />
+              <img
+                src="/assets/Images/MathLab.jpeg"
+                alt=""
+                data-aos="zoom-in"
+              />
             </div>
           </div>
           <div class="col-lg-6">
             <div class="mathlab-img">
-              <img src="/assets/Images/MathKits.jpeg" alt="" />
+              <img
+                src="/assets/Images/MathKits.jpeg"
+                alt=""
+                data-aos="zoom-in"
+              />
             </div>
           </div>
           <!-- <div class="col">
@@ -272,14 +322,14 @@
           <div class="col-lg-6" id="numbering-col-1">
             <div class="numbering-col">
               <div class="trained-teachers">
-                <h3>
+                <h3 data-aos="fade-up">
                   <span>5,000 +</span>
                   <br />
                   Teachers Trained
                 </h3>
               </div>
               <div class="happy-students">
-                <h3>
+                <h3 data-aos="fade-up">
                   <span>1,00,000 +</span>
                   <br />
                   Happy Students
@@ -289,7 +339,11 @@
           </div>
           <div class="col-lg-6">
             <div class="numbering-img">
-              <img src="/assets/Images/Numbering-sec.png" alt="" />
+              <img
+                src="/assets/Images/Numbering-sec.png"
+                alt=""
+                data-aos="zoom-in"
+              />
             </div>
           </div>
         </div>
@@ -300,7 +354,11 @@
         <div class="row">
           <div class="col-lg-3">
             <div class="logo">
-              <img src="/assets/Images/Footer-logo.png" alt="" />
+              <img
+                src="/assets/Images/Footer-logo.png"
+                alt=""
+                data-aos="zoom-in"
+              />
             </div>
           </div>
           <div class="col-lg-4"></div>
@@ -309,7 +367,11 @@
               <ul>
                 <li class="row address">
                   <div class="col-lg-2 col-2 address-image">
-                    <img src="/assets/images/Address.png" alt="" />
+                    <img
+                      src="/assets/images/Address.png"
+                      alt=""
+                      data-aos="zoom-in"
+                    />
                   </div>
                   <div class="col-lg-9 col-9 address-text">
                     <a href="#" target="_blank"
@@ -323,7 +385,11 @@
                 </li>
                 <li class="row email">
                   <div class="col-lg-2 col-2 email-image">
-                    <img src="/assets/images/Mail.png" alt="" />
+                    <img
+                      src="/assets/images/Mail.png"
+                      alt=""
+                      data-aos="zoom-in"
+                    />
                   </div>
                   <div class="col-lg-9 col-9 email-address">
                     <a href="mailto:info@mathwinner.in"
@@ -333,7 +399,11 @@
                 </li>
                 <li class="row phone">
                   <div class="col-lg-2 col-2 phone-image">
-                    <img src="/assets/images/Phone.png" alt="" />
+                    <img
+                      src="/assets/images/Phone.png"
+                      alt=""
+                      data-aos="zoom-in"
+                    />
                   </div>
                   <div class="col-lg-9 col-9 phone-num">
                     <a href="tel:+917794900000"
@@ -348,5 +418,13 @@
         </div>
       </div>
     </footer>
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
+    <!-- aos animation end -->
   </body>
 </html>

@@ -28,12 +28,19 @@ a {
 .row {
   margin: 0 !important;
 }
+.nav-links .active {
+  background-color: #4c4693;
+  padding: 0.5rem 1rem;
+}
+.nav-links .active span {
+  color: #ffffff;
+}
 .heading h1 {
   color: #4c4693;
   font-size: 3.5rem;
   text-align: center;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .header {
@@ -52,6 +59,7 @@ a {
   list-style: none;
   padding: 0 1rem;
   margin: 0;
+  align-self: center;
 }
 .header .logo {
   width: 35%;
@@ -156,6 +164,81 @@ a {
   align-self: center;
 }
 /* Numbering Section End */
+
+/* About Page */
+.upper-colored-banner {
+  background-color: #4c4693;
+}
+.colored-banner .heading {
+  margin-top: 8rem;
+}
+.colored-banner .heading h1 {
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.colored-banner .sub-heading {
+  color: #4c4693;
+  margin-top: 2rem;
+}
+.colored-banner h2 {
+  font-weight: bold;
+}
+.banner-image {
+  margin-top: -10rem;
+  text-align: center;
+}
+.banner-image img {
+  width: 70%;
+}
+.colored-second .text-side h3,
+.colored-third .text-side h3 {
+  color: #4c4693;
+  font-weight: bold;
+}
+.text-side .para p {
+  line-height: 30px;
+  text-align: justify;
+}
+.text-side .para p span {
+  font-weight: bold;
+}
+.colored-second .text-side,
+.colored-third .text-side {
+  padding: 7rem 2rem 0 2rem;
+}
+.side-col {
+  align-self: center;
+}
+.colored-second,
+.colored-third {
+  margin: 2rem 0;
+}
+#product-banner {
+  width: 50%;
+}
+.people {
+  margin: 6rem 0 8rem 0;
+  padding: 0 10rem;
+}
+.people .bg-box {
+  border-radius: 22px;
+  filter: drop-shadow(0px 3px 3.5px rgba(0, 0, 0, 0.16));
+  background-color: #fac853;
+}
+.people .image-side img {
+  padding: 2rem;
+}
+.people .text-side h4,
+.people .text-side span {
+  font-weight: bold;
+}
+.people .text-side .para {
+  margin-top: 1rem;
+  text-align: justify;
+  width: 90%;
+}
+/* About Page End */
 
 /* Footer Starts */
 footer {
