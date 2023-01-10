@@ -177,6 +177,26 @@ a {
   text-align: left;
   margin-bottom: 1rem;
 }
+.colored-above .heading h1 {
+  color: #ffffff;
+  text-align: left;
+  font-size: 2.8rem;
+  margin: 0;
+}
+.colored-above .heading {
+  background-image: url("/assets/Images/colered-above-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 0 2rem 2rem;
+}
+.colored-above-bg {
+  background-image: url("/assets/Images/implement-0.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
 .colored-banner .sub-heading {
   color: #4c4693;
   margin-top: 2rem;
@@ -212,7 +232,10 @@ a {
 }
 .colored-second,
 .colored-third {
-  margin: 2rem 0;
+  margin: 4rem 0;
+}
+.colored-above {
+  margin: 4rem 0 0 0;
 }
 #product-banner {
   width: 50%;
@@ -237,6 +260,21 @@ a {
   margin-top: 1rem;
   text-align: justify;
   width: 90%;
+}
+.colored-above .para {
+  padding: 4rem 4rem 4rem 4rem;
+  background-color: #ffffff;
+  text-align: justify;
+}
+#implement-banner-image {
+  margin-top: -7rem;
+  text-align: end;
+}
+#implement-banner-image img {
+  width: 100%;
+}
+.teacher-training {
+  padding: 0;
 }
 /* About Page End */
 
@@ -285,7 +323,7 @@ footer li,
     width: auto !important;
   }
   .banner .carousel img {
-    height: 50vh;
+    height: 40vh;
   }
   .banner .carousel-caption {
     left: 12%;
@@ -323,5 +361,42 @@ footer li,
   }
   .contact {
     margin-top: 3rem;
+  }
+  .banner-image {
+    margin-top: 2rem;
+  }
+  .colored-second .text-side {
+    padding: 4rem 0 0 0;
+  }
+  .colored-third .text-side,
+  .colored-third {
+    padding: 0;
+    margin: 0;
+  }
+  .people {
+    margin: 5rem 0 4rem 0;
+    padding: 0;
+  }
+  .people .text-side .para {
+    width: 100%;
+  }
+  .text-side {
+    padding: 2rem 1rem;
+  }
+  .image-side img {
+    margin: 2rem 0;
+  }
+  #implement-banner-image {
+    margin-top: 2rem;
+  }
+  .colored-above .heading h1 {
+    font-size: 2rem;
+  }
+  .colored-above .para {
+    padding: 2rem 0;
+  }
+  .colored-above-bg {
+    height: auto;
+    background: none;
   }
 }
