@@ -20,7 +20,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica Regular";
 }
 a {
   text-decoration: none !important;
@@ -72,6 +72,94 @@ a {
   color: #000000;
   font-size: 0.9rem;
 }
+/* Humberug */
+.hamburger1 {
+  position: absolute;
+  z-index: 9999;
+  padding: 3% 0%;
+  display: flex;
+  background-color: inherit;
+  gap: 6.5rem;
+  width: 85%;
+}
+
+.home-nav-bar,
+.home-nav-bar1 {
+  display: flex;
+}
+.topnav1 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #f7f5ec;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  transform: translate3d(-1900px, 0, 0);
+  transition: transform 0.9s;
+  transition-timing-function: ease-in-out;
+}
+.topnav1 .page-active {
+  color: #4c4693 !important;
+  border: none;
+}
+.page-active {
+  color: #4c4693 !important;
+  border: none;
+}
+.page-active1 {
+  color: #4c4693 !important;
+  border: none;
+}
+.active_topnav1 {
+  transform: none;
+  left: 0%;
+}
+
+.mobile_menu_icon1 {
+  cursor: pointer;
+  text-align: end;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  float: right;
+  width: 32px;
+  /* margin-top: 30% !important; */
+}
+.topnav1 a {
+  padding-left: 5%;
+  color: #4c4693;
+  text-decoration: none;
+  font-size: 2rem;
+  display: block;
+  margin: 20px;
+  position: relative;
+}
+
+.topnav1 .active_link1::before {
+  width: 100%;
+  bottom: -8px;
+}
+
+.topnav1 a span {
+  position: relative;
+}
+
+.topnav1 a:hover {
+  color: #34834a;
+  text-decoration: none;
+}
+.hamburger1 {
+  display: none;
+}
+.sub-menuu {
+  padding-left: 5%;
+}
+/* Humberug End */
 
 /* Banner Start */
 .banner .carousel img {
@@ -180,7 +268,7 @@ a {
 .colored-above .heading h1 {
   color: #ffffff;
   text-align: left;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   margin: 0;
 }
 .colored-above .heading {
@@ -188,14 +276,14 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 2rem 0 2rem 2rem;
+  padding: 1.5rem 2rem;
 }
 .colored-above-bg {
   background-image: url("/assets/Images/implement-0.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 100vh;
+  height: 75vh;
 }
 .colored-banner .sub-heading {
   color: #4c4693;
@@ -262,19 +350,105 @@ a {
   width: 90%;
 }
 .colored-above .para {
-  padding: 4rem 4rem 4rem 4rem;
+  padding: 3rem;
   background-color: #ffffff;
   text-align: justify;
 }
 #implement-banner-image {
-  margin-top: -7rem;
-  text-align: end;
+  margin-top: -10rem;
+  text-align: center;
 }
 #implement-banner-image img {
-  width: 100%;
+  width: 60%;
 }
 .teacher-training {
   padding: 0;
+}
+.mastering-maths {
+  background-image: url("/assets/Images/Mastermind-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+.mastering-maths .heading {
+  margin: 2rem 0 1rem 0;
+}
+.mastering-maths .heading h1 {
+  color: #4c4693;
+  margin-bottom: 0;
+}
+.mastering-maths .para p {
+  padding: 0;
+}
+.hands-learn {
+  padding: 0;
+  margin: 0;
+}
+.hands-learn h1 {
+  margin: 3rem 0 1rem 0;
+  font-size: 2.5rem;
+}
+.hands-learn .para {
+  padding: 0 3rem 3rem 3rem;
+}
+.hands-learn .para p {
+  width: 100%;
+}
+.children {
+  text-align: center;
+}
+.children img {
+  width: 60%;
+}
+.playing-kids {
+  text-align: center;
+}
+.playing-kids img {
+  width: 70%;
+}
+.text-sec {
+  margin: 4rem 0;
+}
+.text-sec .heading {
+  text-align: center;
+}
+.text-sec .heading h1 {
+  margin-bottom: 1rem;
+}
+.text-sec .heading h2 {
+  color: #4c4693;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.color-bg {
+  background-color: #f4f1eb;
+  padding: 3rem 0;
+}
+.side-colored-bg {
+  margin: 4rem 0;
+}
+.colored-bg {
+  background-image: url("/assets/Images/colered-above-bg.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6rem 6rem 0;
+  color: #ffffff;
+  height: 100%;
+}
+.col-padding-zero {
+  padding: 0 !important;
+}
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+.mob-image {
+  background-image: url("/assets/Images/Mastermind-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1.5rem 1rem;
 }
 /* About Page End */
 
@@ -319,11 +493,17 @@ footer li,
 /* Footer Ends */
 
 @media screen and (max-width: 620px) {
+  p {
+    font-size: 0.8rem;
+  }
   .header .logo img {
     width: auto !important;
   }
   .banner .carousel img {
     height: 40vh;
+  }
+  .carousel-indicators {
+    margin-bottom: 0rem !important;
   }
   .banner .carousel-caption {
     left: 12%;
@@ -398,5 +578,27 @@ footer li,
   .colored-above-bg {
     height: auto;
     background: none;
+  }
+  .mastering-maths {
+    background-image: none;
+    height: auto;
+  }
+  .hands-learn .para {
+    padding: 0 1rem;
+  }
+  .playing-kids img {
+    width: 100%;
+  }
+  .colored-bg {
+    padding: 2rem 1rem;
+  }
+  .col-reverse {
+    flex-direction: column-reverse;
+  }
+  .children img {
+    width: 100%;
+  }
+  .mastering-maths .heading {
+    margin: 0 0 1rem;
   }
 }

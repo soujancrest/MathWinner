@@ -46,6 +46,58 @@
               alt="MathWinner Logo"
             />
           </div>
+          <div class="hamburger1 d-block d-md-none">
+            <!-- <a href="./">
+              <img
+                src="./assets/home-assets/logo-white.png"
+                alt="..."
+                class="img-fluid"
+                width="20%"
+                style="margin-top: 2%"
+            /></a> -->
+            <div class="mobile_menu_icon1">
+              <img src="/assets/Images/menu.png" class="menu" />
+            </div>
+            <div class="topnav1">
+              <div
+                style="
+                  padding-bottom: 10%;
+                  display: flex;
+                  justify-content: space-between;
+                "
+              >
+                <a href="./"
+                  ><img
+                    src="/assets/Images/MathWinner_Logo-12.png"
+                    alt=""
+                    width="50%"
+                /></a>
+
+                <span
+                  class="close1"
+                  style="
+                    font-size: 40px;
+                    cursor: pointer;
+                    color: #4c4693;
+                    float: right;
+                    margin-right: 5%;
+                    margin-top: 3%;
+                  "
+                  >&times;
+                </span>
+              </div>
+              <a href=""><span class="page-active">HOME</span></a>
+              <a href="/about/">
+                <span>ABOUT</span>
+              </a>
+              <a href="/product/"><span>PRODUCT</span></a>
+              <a href="/implementation/"><span>IMPLEMENTATION</span></a>
+              <a href="/mastering-maths/"><span>MASTERING MATHS</span></a>
+
+              <a href="/partner/"><span>PARTNER</span></a>
+              <a href="/contact/"><span>CONTACT</span></a>
+            </div>
+          </div>
           <div class="nav-links d-none d-md-block">
             <ul>
               <li class="active">
@@ -367,7 +419,7 @@
               <ul>
                 <li class="row address">
                   <div class="col-lg-2 col-2 address-image">
-                    <img src="/assets/images/Address.png" alt="" />
+                    <img src="/assets/Images/Address.png" alt="" />
                   </div>
                   <div class="col-lg-9 col-9 address-text">
                     <a href="#" target="_blank"
@@ -406,6 +458,19 @@
         </div>
       </div>
     </footer>
+    <!-- hamburger-script -->
+    <script>
+      // HAMBURGER1 MENU SCRIPT
+      let menuIcon1 = document.querySelector(".mobile_menu_icon1");
+      let closeIcon1 = document.querySelector(".close1");
+      let topnav1 = document.querySelector(".topnav1");
+      menuIcon1.addEventListener("click", () => {
+        topnav1.classList.add("active_topnav1");
+      });
+      closeIcon1.addEventListener("click", () => {
+        topnav1.classList.remove("active_topnav1");
+      });
+    </script>
     <!-- aos animation -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
