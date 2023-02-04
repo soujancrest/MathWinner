@@ -31,6 +31,7 @@ a {
 .nav-links .active {
   background-color: #4c4693;
   padding: 0.5rem 1rem;
+  border-radius: 20px;
 }
 .nav-links .active span {
   color: #ffffff;
@@ -452,6 +453,71 @@ a {
 }
 /* About Page End */
 
+/* Partner Page Start */
+.partner-bg-sec {
+  background-image: url("/assets/Images/Patner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 67vh;
+}
+.partner-bg-sec .heading h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-top: 3rem;
+}
+.banner-content {
+  margin-top: -23rem;
+}
+#contact-banner-content img {
+  width: 75%;
+}
+.partner-sec {
+  margin-bottom: 7rem;
+}
+.partner-banner {
+  text-align: center;
+}
+.partner-banner img {
+  width: 100%;
+}
+.form-outer {
+  align-self: flex-end;
+}
+.form {
+  padding: 5rem 2rem 3rem;
+  background-color: #f1f1f0;
+  border-radius: 14px;
+}
+form label {
+  margin-bottom: 0.5rem;
+}
+form input {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+form input[type="text"],
+input[type="email"],
+input[type="phone"] {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form input[type="submit"] {
+  width: auto;
+  background-color: #49509d;
+  color: white;
+  padding: 10px 30px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+}
+/* Partner Page End */
+
 /* Footer Starts */
 footer {
   background-image: url("/assets/Images/footer.jpg");
@@ -493,6 +559,23 @@ footer li,
 /* Footer Ends */
 
 @media screen and (max-width: 620px) {
+  .partner-bg-sec .heading h1 {
+    font-size: 1.5rem;
+  }
+  .banner-content {
+    margin-top: -19rem;
+  }
+  #contact-banner-content {
+    margin-top: -24rem;
+  }
+  #contact-banner-content img {
+    width: auto;
+    margin-bottom: 2rem;
+  }
+  .form {
+    margin-top: 3rem;
+    padding-top: 3rem;
+  }
   p {
     font-size: 0.8rem;
   }
